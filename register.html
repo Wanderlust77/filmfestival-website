@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="register.css">
+
+  
+</head>
+
+<body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>register</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+      <form action="index.html" method="post">
+      
+        <h1>Sign up</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password">
+          
+          <label>Age:</label>
+          <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Under 21</label><br>
+          <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">21 or older</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Register</legend>
+          
+        </fieldset>
+        <fieldset>
+        <label for="job">Films:</label>
+        <select id="job" name="film_titles">
+          <optgroup label="5 August">
+            <option value="goodfellas">Goodfellas 18:00-20:00</option>
+            <option value="lastexittobrooklyn">Last Exit to Brooklyn 20:00-22:00</option>
+            <option value="mobetterblues">Mo Better Blues 22:00-24:00</option>
+          </optgroup>
+          <optgroup label="6 August">
+            <option value="godzilla">Godzilla 18:00-20:00</option>
+            <option value="anniehall">Annie Hall 20:00-22:00</option>
+            <option value="thebountyhunter">The Bounty Hunter 22:00-24:00</option>
+          </optgroup>
+          <optgroup label="7 August">
+            <option value="brooklynrules">Brooklyn Rules 18:00-20:00</option>
+            <option value="Brooklyn's Finest">Brooklyn's Finest 20:00-22:00</option>
+			<option value="cadillacman">Cadillac Man 22:00-24:00</option>
+          </optgroup>
+          <optgroup label="8 August">
+            <option value="clockers">Clockers 18:00-20:00</option>
+            <option value="dotherightthing">Do the Right Thing 20:00-22:00</option>
+			<option value="frenchconnection">French Connection 22:00-24:00</option>
+          </optgroup>
+        </select>
+        
+          <label>Number of tickets:</label>
+          <input type="checkbox" id="ticket" value="ticketnumber" name="user_interest"><label class="light" for="ticket">1</label><br>
+            <input type="checkbox" id="ticket" value="ticketnumber" name="user_interest"><label class="light" for="ticket">2</label><br>
+          <input type="checkbox" id="ticket" value="ticketnumber" name="user_interest"><label class="light" for="ticket">3 or more</label>
+			
+		<label for="bio">Comments:</label>
+          <textarea id="bio" name="user_bio"></textarea>
+		  
+        </fieldset>
+        <button type="submit">Claim your tickets</button>
+      </form>
+      
+    </body>
+</html>
+  
+  
+</body>
+</html>
